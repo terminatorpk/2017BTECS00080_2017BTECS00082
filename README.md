@@ -21,13 +21,14 @@ except the new features explained below...
 OpenCV implements two kind of Hough Line Transforms
 
 Difference:-
-1) The Standard Hough Transform:-
+1. The Standard Hough Transform:-
 	It gives you as result a vector of couples (\theta, r_{\theta})
 	In OpenCV it is implemented with the function HoughLines
 
-2) The Probabilistic Hough Line Transform:-
+2. The Probabilistic Hough Line Transform:-
 	A more efficient implementation of the Hough Line Transform. It gives as output the extremes of the detected lines (x_{0}, y_{0}, x_{1}, y_{1})
 	In OpenCV it is implemented with the function HoughLinesP
+
 
 
 1) The Standard Hough Transform  (HoughLines method):-
